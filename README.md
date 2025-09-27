@@ -7,7 +7,8 @@ Minimal Node.js + Express + TypeScript backend example with a Hello World route 
 ```json
 {
   "mensagem": "Hello, World!",
-  "requisicoes": 1
+  "requisições": 1,
+  "horário": "2025-09-27T08:00:00.000Z"
 }
 ```
 
