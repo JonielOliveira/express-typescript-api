@@ -14,8 +14,9 @@ let requisicoes = 0;
 app.get("/", (_req: Request, res: Response) => {
   requisicoes += 1;
   res.json({
-    mensagem: "Hello, World!",
-    requisicoes
+    "mensagem": "Hello, World!",
+    "requisições": requisicoes,
+    "horário": new Date().toISOString()
   });
 });
 
